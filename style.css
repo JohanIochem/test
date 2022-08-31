@@ -1,0 +1,17 @@
+body
+{
+    background-image: url(images/arriereplan.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    font-size: clamp(7px, 2vw, 25px);
+    color:whitesmoke;
+    text-shadow: 0.5vw 0.5vw 1vw rgba(10, 10, 10, 0.5);
+    -webkit-text-stroke-width: 0.05vw;
+    margin: 10;
+    padding: 10;
+    text-align: center;
+    
+
+}
