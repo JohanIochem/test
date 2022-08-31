@@ -15,6 +15,10 @@ let commercialTime = 5;
 
 let totalepisodeandcommercial = (episodeTime + commercialTime) * numberOfSeasons * numberOfEpisodes;
 
+let max =(numberOfEpisodes * numberOfSeasons * episodeTime);
+
+let totalShowTime = max - (max * commercialTime);
+
 let numberOfSeasons = 6;
         document.getElementById('episodeTime').innerHTML= episodeTime;
 
